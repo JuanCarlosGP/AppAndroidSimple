@@ -12,7 +12,6 @@ AppAndroidSimple is an Android application designed to [Briefly describe what yo
 ## Installation
 To install the app, clone this repository and import into **Android Studio**
 ```
-  sh
   git clone https://github.com/JuanCarlosGP/AppAndroidSimple.git
 ```
 
