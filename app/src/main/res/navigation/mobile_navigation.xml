@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.juancarlos2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_resumen"
+            app:destination="@id/resumen" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resumen"
+        android:name="com.example.juancarlos2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_resumen_to_lunes"
+            app:destination="@id/lunes" />
+        <action
+            android:id="@+id/action_resumen_to_martes"
+            app:destination="@id/martes" />
+    </fragment>
+    <fragment
+        android:id="@+id/lunes"
+        android:name="com.example.juancarlos2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_lunes_to_resumen"
+            app:destination="@id/resumen" />
+    </fragment>
+    <fragment
+        android:id="@+id/martes"
+        android:name="com.example.juancarlos2.BlankFragment"
+        android:label="@string/fragment_slideshow"
+        tools:layout="@layout/fragment_blank">
+        <action
+            android:id="@+id/action_martes_to_resumen"
+            app:destination="@id/resumen" />
+    </fragment>
+</navigation>
