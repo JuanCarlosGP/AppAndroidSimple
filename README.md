@@ -25,3 +25,5 @@ Please make sure to update tests as appropriate.
 
 ## License
 [Specify the license under which your app is released, or simply put "MIT" if you are using the MIT license]
+## Preview
+  <img src="https://cdn.discordapp.com/attachments/1033095213255770244/1209584272529297529/image.png?ex=65e77423&is=65d4ff23&hm=80d318f203478d0eda5e433f6d1b8e6dbfd5fdda5afb0eefa1581aeb708724d6&" max-width="100%" height=auto alt="Example"> 
