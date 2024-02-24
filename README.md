@@ -21,7 +21,7 @@ To install the app, clone this repository and import into **Android Studio**
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate..
+Please make sure to update tests as appropriate.
 
 ## License
 [Specify the license under which your app is released, or simply put "MIT" if you are using the MIT license]
